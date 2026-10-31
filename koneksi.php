@@ -1,7 +1,7 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
+$host = "dbsekolah.mysql.database.azure.com";
+$user = "alifiamaretacahyani";
+$pass = "MASUKKAN_PASSWORD_AZURE_MU"; 
 $db   = "db_sekolah";
 
 $koneksi = mysqli_connect($host, $user, $pass, $db);
